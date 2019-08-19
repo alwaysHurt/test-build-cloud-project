@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="056c1964-1a69-41a5-8b22-e210569c1828" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/eruka/target/" />
+    <ignored path="$PROJECT_DIR$/cloud_api/target/" />
+    <ignored path="$PROJECT_DIR$/cloudapi/target/" />
+    <ignored path="$PROJECT_DIR$/cloudapi/eruka/target/" />
+    <ignored path="$PROJECT_DIR$/could_api/target/" />
+    <ignored path="$PROJECT_DIR$/could_api/eruka/target/" />
+    <ignored path="$PROJECT_DIR$/could_api/could_dependencies/target/" />
+    <ignored path="$PROJECT_DIR$/could_api/common-core/target/" />
+    <ignored path="$PROJECT_DIR$/could_api/upms/target/" />
+    <ignored path="$PROJECT_DIR$/could_api/upms/upms-api/target/" />
+    <ignored path="$PROJECT_DIR$/could_api/upms/upms-biz/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/could_api/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>@Override</find>
+      <find>spring-boot-starter-data-jpa</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>//@Override</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cloud_api/pom.xml" />
+        <option value="$PROJECT_DIR$/cloudapi/pom.xml" />
+        <option value="$PROJECT_DIR$/could_api/pom.xml" />
+        <option value="$PROJECT_DIR$/could_api/README.md" />
+        <option value="$PROJECT_DIR$/could_api/eruka/pom.xml" />
+        <option value="$PROJECT_DIR$/could_api/eruka/src/main/java/com/sld/clouderuka/ErukaApplication.java" />
+        <option value="$PROJECT_DIR$/could_api/eruka/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/could_api/upms/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/could_api/common-core/src/main/java/com/sld/commoncore/uid/UidGenerator.java" />
+        <option value="$PROJECT_DIR$/could_api/upms/src/main/java/com/sld/cloudupms/entity/SysUser.java" />
+        <option value="$PROJECT_DIR$/could_api/upms/src/main/java/com/sld/cloudupms/control/SysUserController.java" />
+        <option value="$PROJECT_DIR$/could_api/upms/src/main/java/com/sld/cloudupms/dao/SysUserRepo.java" />
+        <option value="$PROJECT_DIR$/could_api/upms/src/main/java/com/sld/cloudupms/service/SysUserService.java" />
+        <option value="$PROJECT_DIR$/could_api/upms/src/main/java/com/sld/cloudupms/service/impl/CommonQueryService.java" />
+        <option value="$PROJECT_DIR$/could_api/upms/src/main/java/com/sld/cloudupms/service/CommonQueryService.java" />
+        <option value="$PROJECT_DIR$/could_api/upms/src/main/java/com/sld/cloudupms/service/impl/CommonQueryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/could_api/upms/src/main/java/com/sld/cloudupms/UpmsApplication.java" />
+        <option value="$PROJECT_DIR$/could_api/upms/src/main/java/com/sld/cloudupms/service/impl/SysUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/could_api/upms/upms-api/src/main/java/com/sld/upms/api/entity/SysUser.java" />
+        <option value="$PROJECT_DIR$/could_api/upms/upms-api/pom.xml" />
+        <option value="$PROJECT_DIR$/could_api/upms/upms-api/src/main/java/com/sld/upms/api/constants/LogConstants.java" />
+        <option value="$PROJECT_DIR$/could_api/common-core/pom.xml" />
+        <option value="$PROJECT_DIR$/could_api/upms/upms-biz/src/main/java/com/sld/upms/biz/BizApplication.java" />
+        <option value="$PROJECT_DIR$/could_api/upms/upms-biz/src/main/java/com/sld/upms/biz/service/impl/CommonQueryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/could_api/upms/pom.xml" />
+        <option value="$PROJECT_DIR$/could_api/upms/upms-biz/pom.xml" />
+        <option value="$PROJECT_DIR$/could_api/upms/upms-biz/src/main/java/com/sld/upms/biz/service/impl/SysUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/could_api/upms/upms-biz/src/main/java/com/sld/upms/biz/dao/SysUserRepo.java" />
+        <option value="$PROJECT_DIR$/could_api/upms/upms-biz/src/main/java/com/sld/upms/biz/service/SysUserService.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="7" />
+    <option name="y" value="101" />
+    <option name="width" value="1440" />
+    <option name="height" value="860" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="test-build-cloud-project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\myapplications\idea\mycode\test-build-cloud-project" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="test-build-cloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sld.upms.api.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\myapplications\idea\mycode\test-build-cloud-project\could_api\upms\upms-biz\src\main\java\com\sld\upms\biz" />
+      <recent name="C:\myapplications\idea\mycode\test-build-cloud-project\could_api\upms\upms-api\src\main\java\com\sld\upms\api\" />
+      <recent name="C:\myapplications\idea\mycode\test-build-cloud-project\could_api\common-core\src\main\java\com\sld\commoncore\uid" />
+      <recent name="C:\myapplications\idea\mycode\test-build-cloud-project\could_api\common-core\src\main\java\com\sld\commoncore" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UpmsApplication">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="cloud_api" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="cloud_api" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BizApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="upmsbiz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sld.upms.biz.BizApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ErukaApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eruka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sld.clouderuka.ErukaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="upms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sld.cloudupms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sld.cloudupms.UpmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.UpmsApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="056c1964-1a69-41a5-8b22-e210569c1828" name="Default Changelist" comment="" />
+      <created>1565913108903</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565913108903</updated>
+      <workItem from="1565913112523" duration="529000" />
+      <workItem from="1565915986150" duration="188000" />
+      <workItem from="1565916246062" duration="757000" />
+      <workItem from="1566008904037" duration="13943000" />
+      <workItem from="1566212748289" duration="7021000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="22450000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2680965" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.80160856" weight="0.23620933" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4953083" visible="true" weight="0.34419262" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50469166" side_tool="true" visible="true" weight="0.34419262" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.25884017" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven" order="7" visible="true" weight="0.2841823" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cloud_api/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/cloudapi/eruka/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/cloudapi/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/could_api/could_dependencies/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/could_api/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="133">
+            <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/could_api/eruka/src/main/java/ErukaApplication.java" />
+    <entry file="file://$PROJECT_DIR$/could_api/eruka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="36" column="78" selection-start-line="36" selection-start-column="78" selection-end-line="36" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/could_api/eruka/src/main/java/com/sld/clouderuka/ErukaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/could_api/upms/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/could_api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="48" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar!/lombok/Data.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.1.7.RELEASE/spring-boot-starter-data-jpa-2.1.7.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/could_api/eruka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/could_api/common-core/src/main/java/com/sld/commoncore/sss.java" />
+    <entry file="file://$PROJECT_DIR$/could_api/common-core/src/main/java/com/sld/commoncore/uid/SnowFlake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1824">
+          <caret line="98" column="58" selection-start-line="98" selection-start-column="58" selection-end-line="98" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/could_api/common-core/src/main/java/com/sld/commoncore/uid/UidGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar!/javax/persistence/GenerationType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/could_api/upms/src/main/java/com/sld/cloudupms/control/SysUserController.java" />
+    <entry file="file://$PROJECT_DIR$/could_api/upms/src/main/java/com/sld/cloudupms/service/SysUserService.java" />
+    <entry file="file://$PROJECT_DIR$/could_api/upms/src/main/java/com/sld/cloudupms/service/CommonQueryService.java" />
+    <entry file="file://$PROJECT_DIR$/could_api/upms/src/main/java/com/sld/cloudupms/dao/SysUserRepo.java" />
+    <entry file="file://$PROJECT_DIR$/could_api/upms/src/main/java/com/sld/cloudupms/service/impl/CommonQueryServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/could_api/upms/target/classes/com/sld/cloudupms/entity/SysUser.class" />
+    <entry file="file://$PROJECT_DIR$/could_api/upms/src/main/java/com/sld/cloudupms/service/impl/SysUserServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/could_api/upms/src/main/java/com/sld/cloudupms/entity/SysUser.java" />
+    <entry file="jar://$USER_HOME$/.m2/repository/com/querydsl/querydsl-apt/4.2.1/querydsl-apt-4.2.1.jar!/com/querydsl/apt/jpa/JPAAnnotationProcessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/could_api/upms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    <entry file="file://$PROJECT_DIR$/could_api/upms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+    <entry file="file://$PROJECT_DIR$/could_api/upms/upms-api/src/main/java/com/sld/upms/api/ss.java" />
+    <entry file="file://$PROJECT_DIR$/could_api/upms/upms-api/src/main/java/com/sld/upms/api/entity/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/could_api/upms/upms-api/src/main/java/com/sld/upms/api/constants/LogConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/could_api/upms/upms-api/src/main/java/com/sld/upms/api/constants/CodeFormatConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/could_api/upms/src/main/java/com/sld/cloudupms/UpmsApplication.java" />
+    <entry file="file://$PROJECT_DIR$/could_api/common-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/could_api/upms/upms-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-684">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/could_api/upms/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/could_api/upms/upms-biz/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/could_api/upms/upms-biz/src/main/java/com/sld/upms/biz/BizApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1127#1128#0" expanded="true" />
+            <element signature="e#1191#1192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/could_api/upms/upms-biz/src/main/java/com/sld/upms/biz/control/SysUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/could_api/upms/upms-biz/src/main/java/com/sld/upms/biz/dao/SysUserRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/could_api/upms/upms-biz/src/main/java/com/sld/upms/biz/service/impl/CommonQueryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/could_api/upms/upms-biz/src/main/java/com/sld/upms/biz/service/impl/SysUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2985#2986#0" expanded="true" />
+            <element signature="e#3049#3050#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/could_api/upms/upms-biz/src/main/java/com/sld/upms/biz/service/CommonQueryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/could_api/upms/upms-biz/src/main/java/com/sld/upms/biz/service/SysUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>upms</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
