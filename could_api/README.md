@@ -1,4 +1,4 @@
-**盈格PLM系统BS端**   
+**springCloud微服务测试系统**   
    
 - 基于 Spring Cloud Greenwich 、Spring Security OAuth2 + JWT 权限认证  
 
