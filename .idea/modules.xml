@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/could_api/common-core/commoncore.iml" filepath="$PROJECT_DIR$/could_api/common-core/commoncore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/could_api/could_api.iml" filepath="$PROJECT_DIR$/could_api/could_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud_api/demo.iml" filepath="$PROJECT_DIR$/cloud_api/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/could_api/eruka/eruka.iml" filepath="$PROJECT_DIR$/could_api/eruka/eruka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/could_api/upms/upms.iml" filepath="$PROJECT_DIR$/could_api/upms/upms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/could_api/upms/upms-api/upmsapi.iml" filepath="$PROJECT_DIR$/could_api/upms/upms-api/upmsapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/could_api/upms/upms-biz/upmsbiz.iml" filepath="$PROJECT_DIR$/could_api/upms/upms-biz/upmsbiz.iml" />
+    </modules>
+  </component>
+</project>
