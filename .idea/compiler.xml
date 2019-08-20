@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="commoncore" />
         <module name="eruka" />
         <module name="upmsapi" />
         <module name="demo" />
         <module name="upmsbiz" />
+        <module name="webfeign" />
+        <module name="webribbon" />
+        <module name="commoncore" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +26,8 @@
       <module name="upms" target="1.8" />
       <module name="upmsapi" target="1.8" />
       <module name="upmsbiz" target="1.8" />
+      <module name="webfeign" target="1.8" />
+      <module name="webribbon" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -37,6 +41,8 @@
       <module name="upms" options="-parameters" />
       <module name="upmsapi" options="-parameters" />
       <module name="upmsbiz" options="-parameters" />
+      <module name="webfeign" options="-parameters" />
+      <module name="webribbon" options="-parameters" />
     </option>
   </component>
 </project>

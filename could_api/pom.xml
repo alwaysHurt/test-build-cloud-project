@@ -7,6 +7,8 @@
         <module>eruka</module>
         <module>common-core</module>
         <module>upms</module>
+        <module>web-ribbon</module>
+        <module>web-feign</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

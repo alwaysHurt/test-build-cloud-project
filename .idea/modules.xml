@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/could_api/upms/upms.iml" filepath="$PROJECT_DIR$/could_api/upms/upms.iml" />
       <module fileurl="file://$PROJECT_DIR$/could_api/upms/upms-api/upmsapi.iml" filepath="$PROJECT_DIR$/could_api/upms/upms-api/upmsapi.iml" />
       <module fileurl="file://$PROJECT_DIR$/could_api/upms/upms-biz/upmsbiz.iml" filepath="$PROJECT_DIR$/could_api/upms/upms-biz/upmsbiz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/could_api/web-feign/webfeign.iml" filepath="$PROJECT_DIR$/could_api/web-feign/webfeign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/could_api/web-ribbon/webribbon.iml" filepath="$PROJECT_DIR$/could_api/web-ribbon/webribbon.iml" />
     </modules>
   </component>
 </project>
