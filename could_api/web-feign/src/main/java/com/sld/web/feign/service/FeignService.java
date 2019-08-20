@@ -1,5 +1,6 @@
 package com.sld.web.feign.service;
 
+import com.sld.web.feign.Hystrix.FeignServiceHystrix;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @Description: TODO
  * @date 2019/8/2023:46
  */
-@FeignClient(value = "upms-biz")
+@FeignClient(value = "upms-biz" ,fallback = FeignServiceHystrix.class)
 public interface FeignService {
 
     @RequestMapping(value = "/getServerMessage", method = RequestMethod.GET)
