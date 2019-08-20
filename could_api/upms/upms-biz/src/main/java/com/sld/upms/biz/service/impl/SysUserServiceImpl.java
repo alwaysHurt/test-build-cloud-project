@@ -1,17 +1,23 @@
 package com.sld.upms.biz.service.impl;
 
+import com.querydsl.core.QueryResults;
+import com.querydsl.jpa.impl.JPAQuery;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 
+import com.sld.upms.api.entity.QSysUser;
 import com.sld.upms.api.entity.SysUser;
 import com.sld.upms.biz.dao.SysUserRepo;
 import com.sld.upms.biz.service.CommonQueryService;
+import com.sld.upms.biz.service.SysUserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 /**
@@ -23,7 +29,7 @@ import java.util.Optional;
  */
 @Service
 @Slf4j
-public class SysUserServiceImpl  {
+public class SysUserServiceImpl  implements SysUserService {
     @Autowired
     JPAQueryFactory queryFactory;
 
@@ -40,14 +46,14 @@ public class SysUserServiceImpl  {
     public SysUserServiceImpl() {
     }
 
-    //@Override
+    @Override
     @Transactional(rollbackFor = {Exception.class})
     public void insert(SysUser sysUser) {
         repository.save(sysUser);
     }
 
 
-    //@Override
+    @Override
     @Transactional(rollbackFor = {Exception.class})
     public void delete(String userId) {
         repository.deleteById(userId);
@@ -58,7 +64,7 @@ public class SysUserServiceImpl  {
      *
      * @param userIds
      */
-    //@Override
+    @Override
     @Transactional(rollbackFor = {Exception.class})
     public void delete(String[] userIds) {
         for (String userId : userIds) {
@@ -67,7 +73,7 @@ public class SysUserServiceImpl  {
     }
 
 
-    //@Override
+    @Override
 //    @CacheEvict(value = "sysUserCache",key = "#sysUser.userNo")
     @Transactional(rollbackFor = {Exception.class})
     public int update(SysUser sysUser) {
@@ -75,7 +81,7 @@ public class SysUserServiceImpl  {
         return 1;
     }
 
-    //@Override
+    @Override
     public SysUser selectById(String userId) {
         Optional<SysUser> optional = repository.findById(userId);
         SysUser sysUser = optional.get();
@@ -83,7 +89,7 @@ public class SysUserServiceImpl  {
     }
 
 
-    //@Override
+    @Override
     @Transactional(rollbackFor = {Exception.class})
     public void saveAll(List<SysUser> sysUsers) {
         repository.saveAll(sysUsers);
@@ -96,19 +102,19 @@ public class SysUserServiceImpl  {
      * @param params
      * @return
      */
-    //@Override
-//    public QueryResults<SysUser> query(Pageable pageable, Map<String, Object> params) {
-//        QSysUser qSysUser = QSysUser.sysUser;
-//        JPAQuery<SysUser> jpaSysUser = (JPAQuery<SysUser>) commonQueryService.queryBase(qSysUser, pageable, params);
-//        return jpaSysUser.fetchResults();
-//    }
+    @Override
+    public QueryResults<SysUser> query(Pageable pageable, Map<String, Object> params) {
+        QSysUser qSysUser = QSysUser.sysUser;
+        JPAQuery<SysUser> jpaSysUser = (JPAQuery<SysUser>) commonQueryService.queryBase(qSysUser, pageable, params);
+        return jpaSysUser.fetchResults();
+    }
 
 
     /**
      * 用户编号查询单个
      * 并缓存
      **/
-    //@Override
+    @Override
 //    @Cacheable(cacheNames = "sysUserCache", key = "#userNo")
     public SysUser findOneByUserNo(String userNo) {
         SysUser sysUser = repository.findOneByUserNo(userNo);
@@ -122,7 +128,7 @@ public class SysUserServiceImpl  {
      * @param filter
      * @return
      */
-    //@Override
+    @Override
     public List<SysUser> findByUserName(String filter) {
         return sysUserRepo.findUsersLikeUsername(filter);
     }

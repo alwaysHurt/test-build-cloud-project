@@ -60,34 +60,8 @@ public interface SysUserService {
      */
     QueryResults<SysUser> query(Pageable pageable, Map<String, Object> params);
 
-    /**
-     * 根据角色id和用户描述查询符合条件的用户
-     *
-     * @param pageable
-     * @param roleId
-     * @param flag
-     * @param user
-     * @return
-     */
-
-    QueryResults<SysUser> findByRoleIdAndUser(Pageable pageable, String roleId, Boolean flag, SysUser user);
-
-    /**
-     * 根据角色id和用户id和flag决定关系
-     *
-     * @param roleId
-     * @param userId
-     * @param flag
-     */
-    void assignRoleToUser(String roleId, String userId, Boolean flag);
 
 
-    /**
-     * 获取用户的权限信息
-     * @param userNo
-     * @return
-     */
-    List<String> getUserPermission(String userNo);
 
     /**
      * 根据姓名查询用户

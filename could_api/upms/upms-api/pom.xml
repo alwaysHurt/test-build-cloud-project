@@ -9,6 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <packaging>jar</packaging>
     <groupId>com.sld</groupId>
     <artifactId>upms-api</artifactId>
 

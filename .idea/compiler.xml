@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="upmsbiz" />
+        <module name="commoncore" />
         <module name="eruka" />
         <module name="upmsapi" />
         <module name="demo" />
-        <module name="commoncore" />
+        <module name="upmsbiz" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

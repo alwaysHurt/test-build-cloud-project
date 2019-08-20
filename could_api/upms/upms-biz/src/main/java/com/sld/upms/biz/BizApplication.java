@@ -39,7 +39,7 @@ import javax.persistence.EntityManager;
 //@EnableScheduling
 //开启feign
 //@EnableFeignClients(basePackages = {"com.ingsys.plm.upms.api.feign","com.ingsys.plm.fdfs.api.feign"})
-@EntityScan("")
+@EntityScan("com.sld.upms.api.entity")
 //开启事务
 @EnableTransactionManagement
 public class BizApplication {
