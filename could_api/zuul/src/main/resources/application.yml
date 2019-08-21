@@ -1,0 +1,20 @@
+server:
+  port: 8769
+
+spring:
+  application:
+    name: zuul   # 项目名称尽量用小写
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+zuul:
+  routes:
+    api-a:
+      path: /ribbon/**
+      serviceId: web-ribbon
+    api-b:
+      path: /feign/**
+      serviceId: web-feign

@@ -1,4 +1,4 @@
-package com.sld.web.ribbon;
+package com.sld.web.ribbon.config;
 
 import com.netflix.hystrix.contrib.metrics.eventstream.HystrixMetricsStreamServlet;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;

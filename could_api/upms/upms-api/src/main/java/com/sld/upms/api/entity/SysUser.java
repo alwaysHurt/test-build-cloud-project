@@ -1,7 +1,7 @@
 package com.sld.upms.api.entity;
 
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
+//import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 import org.hibernate.annotations.GenericGenerator;
 
@@ -30,9 +30,9 @@ public class SysUser implements Serializable {
     private String userId;
     private String userNo;
     private String userName;
-    @JsonIgnore
+//    @JsonIgnore
     private String password;
-    @JsonIgnore
+//    @JsonIgnore
     private String salt;
     private String phone;
     private String avatar;

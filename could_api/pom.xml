@@ -9,6 +9,8 @@
         <module>upms</module>
         <module>web-ribbon</module>
         <module>web-feign</module>
+        <module>zuul</module>
+        <module>spring-cloud-config</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

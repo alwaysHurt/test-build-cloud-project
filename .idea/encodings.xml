@@ -4,10 +4,12 @@
     <file url="file://$PROJECT_DIR$/could_api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/could_api/common-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/could_api/eruka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/could_api/spring-cloud-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/could_api/upms" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/could_api/upms/upms-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/could_api/upms/upms-biz" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/could_api/web-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/could_api/web-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/could_api/zuul" charset="UTF-8" />
   </component>
 </project>

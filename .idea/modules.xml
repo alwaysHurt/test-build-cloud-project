@@ -6,11 +6,13 @@
       <module fileurl="file://$PROJECT_DIR$/could_api/could_api.iml" filepath="$PROJECT_DIR$/could_api/could_api.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud_api/demo.iml" filepath="$PROJECT_DIR$/cloud_api/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/could_api/eruka/eruka.iml" filepath="$PROJECT_DIR$/could_api/eruka/eruka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/could_api/spring-cloud-config/springcloudconfig.iml" filepath="$PROJECT_DIR$/could_api/spring-cloud-config/springcloudconfig.iml" />
       <module fileurl="file://$PROJECT_DIR$/could_api/upms/upms.iml" filepath="$PROJECT_DIR$/could_api/upms/upms.iml" />
       <module fileurl="file://$PROJECT_DIR$/could_api/upms/upms-api/upmsapi.iml" filepath="$PROJECT_DIR$/could_api/upms/upms-api/upmsapi.iml" />
       <module fileurl="file://$PROJECT_DIR$/could_api/upms/upms-biz/upmsbiz.iml" filepath="$PROJECT_DIR$/could_api/upms/upms-biz/upmsbiz.iml" />
       <module fileurl="file://$PROJECT_DIR$/could_api/web-feign/webfeign.iml" filepath="$PROJECT_DIR$/could_api/web-feign/webfeign.iml" />
       <module fileurl="file://$PROJECT_DIR$/could_api/web-ribbon/webribbon.iml" filepath="$PROJECT_DIR$/could_api/web-ribbon/webribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/could_api/zuul/zuul.iml" filepath="$PROJECT_DIR$/could_api/zuul/zuul.iml" />
     </modules>
   </component>
 </project>
